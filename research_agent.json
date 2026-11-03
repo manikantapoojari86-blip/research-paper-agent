@@ -1,0 +1,38 @@
+{
+  "project_name": "Research Paper Agent",
+  "version": "1.0.0",
+  "description": "AI-powered academic research assistant",
+  "model": "Gemini",
+  "prompting_strategy": "Few-shot prompting",
+  "modules": [
+    {
+      "name": "Topic Explorer",
+      "purpose": "Explore research topics and explain academic concepts"
+    },
+    {
+      "name": "Paper Analyzer",
+      "purpose": "Analyze academic research papers"
+    },
+    {
+      "name": "Literature Review",
+      "purpose": "Generate literature reviews and identify research gaps"
+    },
+    {
+      "name": "Report Generator",
+      "purpose": "Generate structured academic research reports"
+    }
+  ],
+  "output_format": [
+    "Abstract",
+    "Introduction",
+    "Literature Review",
+    "Methodology",
+    "Findings",
+    "Conclusion",
+    "References"
+  ],
+  "security": {
+    "api_key_storage": "Environment variables",
+    "expose_api_key": false
+  }
+}
