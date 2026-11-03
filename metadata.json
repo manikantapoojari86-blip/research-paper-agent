@@ -1,0 +1,6 @@
+{
+  "name": "Research Paper Agent",
+  "description": "Professional AI-powered academic research assistant for exploring topics, finding verified papers, analyzing literature, and generating structured reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
